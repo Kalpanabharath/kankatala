@@ -1,0 +1,66 @@
+.hearticon {
+  color: red;
+  width: 25px;
+  height: 25px;
+}
+.singleSlide {
+  width: 20vw;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+}
+.slidetext {
+  display: flex;
+  width: 100%;
+  padding: 10px 5px;
+  justify-content: space-between;
+  font-family: "Roboto-Light";
+  size: 16px;
+}
+.slideamount {
+  width: 30%;
+}
+.slidetext > p {
+  width: 70%;
+}
+.arival {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10vh;
+  align-items: center;
+}
+.imageslide {
+  position: relative;
+  height: 80%;
+}
+.imageslide img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.saleheart {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5%;
+}
+.sale {
+  background-color: aliceblue;
+  padding-left: 10%;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.overridetext {
+  color: rgba(121, 121, 121, 1);
+  font-size: 13px;
+  text-decoration: line-through;
+}

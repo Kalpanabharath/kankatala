@@ -1,0 +1,45 @@
+.AnnouncementBar {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: clamp(15px, 5vh, 32px);
+}
+
+.AnnouncementBar .overflow {
+  display: flex;
+  height: 100%;
+  width: 200vw;
+  animation: scrollAnimation 30s linear infinite;
+}
+
+.AnnouncementBar .overflow > * {
+  flex: 0 0 100vw;
+  text-align: center;
+  background: var(--darkred);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto-regular;
+  font-weight: 300;
+  font-size: clamp(8px, 2vw, 12px);
+  line-height: 1.5;
+}
+
+.AnnouncementBar .overflow img {
+  margin-right: 1%;
+}
+
+/* Animation */
+@keyframes scrollAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-50vw);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
+}
