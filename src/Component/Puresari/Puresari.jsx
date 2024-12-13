@@ -11,7 +11,10 @@ const Puresari = () => {
         <img src={sariright} alt="kanjipuramright" />
       </div>
       <div class="puresaritext">
-        <h3 className="sariheadtext">Pure ZARI Kanchipuram</h3>
+        <h3 className="sariheadtext">
+          Pure ZARI <br />
+          Kanchipuram
+        </h3>
         <p className="sariparatext">Shop Now</p>
       </div>
     </div>

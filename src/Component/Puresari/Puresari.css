@@ -28,7 +28,13 @@
 .sariheadtext {
   font-size: 28px;
 }
-.sariheadtext h3 {
-  font-family: "Cormorant-VariableFont_wght";
-  text-transform: capitalize;
+.sariheadtext {
+  font-family: "Cormorant-VariableFont_wght", serif;
+  text-transform: uppercase;
+}
+.sariparatext {
+  text-decoration: underline;
+  font-family: "Roboto-Light";
+  font-size: 16px;
+  font-weight: 300;
 }

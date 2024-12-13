@@ -1,0 +1,25 @@
+.sariabovekaha {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.imagesari {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.imagesari > * {
+  text-align: center;
+}
+.imagesari > * > p {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 10px;
+}
+.sariabovekahaimgboredre {
+  margin: 0 auto;
+  align-items: center;
+}

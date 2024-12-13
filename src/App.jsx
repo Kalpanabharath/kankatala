@@ -7,6 +7,7 @@ import About from "./Component/About/About";
 import Categories from "./Component/Categories/Categories";
 import Arivals from "./Component/Arivals/Arivals";
 import Puresari from "./Component/Puresari/Puresari";
+import Sariabovekaha from "./Component/sariabovekaha/sariabovekaha";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Categories />
       <Arivals />
       <Puresari />
+      <Sariabovekaha />
     </div>
   );
 };
